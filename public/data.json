@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "Elite Limousine Services",
+    "name": "Ralphs Limousine Services",
     "tagline": "Luxury Transportation Excellence",
     "phone": "+1 (555) 123-4567",
     "email": "info@elitelimo.com",
@@ -9,7 +9,7 @@
   },
   "hero": {
     "kicker": "Premium Limousine Services",
-    "title": "Experience Luxury Transportation Like Never Before",
+    "title": "Best Limo Rental Service in Houston, TX - Ralphs Limousine",
     "subtitle": "Professional chauffeurs, premium vehicles, and impeccable service for all your transportation needs. From airport transfers to special events, we deliver excellence.",
     "primary": { "label": "Book Now", "href": "/contact" },
     "secondary": { "label": "View Fleet", "href": "/services" },
@@ -23,9 +23,9 @@
   "services": {
     "main": [
       {
-        "id": "airport-transfers",
-        "title": "Airport Transfers",
-        "description": "Seamless airport pickups and drop-offs with flight tracking and waiting time included.",
+        "id": "airport-transportation",
+        "title": "Airport Transportation",
+        "description": "We offer luxury airport transportation to George Bush Intercontinental Airport (IAH) and William P. Hobby Airport (HOU) in Houston, TX. Whether you’re traveling for business, leisure, or a special event, we provide you with a seamless and comfortable journey.",
         "icon": "plane",
         "features": ["Flight tracking", "Waiting time included", "Meet & greet service", "Luggage assistance"],
         "vehicles": ["Sedan", "SUV", "Limousine"],
@@ -33,9 +33,9 @@
         "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan2.png?updatedAt=1755857554333"
       },
       {
-        "id": "corporate-travel",
-        "title": "Corporate Travel",
-        "description": "Professional, discreet service for executives and corporate events.",
+        "id": "corporate-transportation",
+        "title": "Corporate Ground Transportation",
+        "description": "Whether you’re heading to a business meeting, event, or a conference, We offer reliable and luxury corporate ground transportation services in Houston. We specialize in providing transportation for executives, clients, and employees, ensuring comfort and punctuality.",
         "icon": "briefcase",
         "features": ["Professional chauffeurs", "Corporate accounts", "Billing integration", "Priority booking"],
         "vehicles": ["Executive Sedan", "SUV", "Limousine"],
@@ -43,45 +43,55 @@
         "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan2.png?updatedAt=1755857554333"
       },
       {
-        "id": "event-chauffeur",
-        "title": "Event Chauffeur",
-        "description": "Weddings, proms, galas, and red-carpet events with premium vehicles.",
-        "icon": "star",
-        "features": ["Special event packages", "Decorated vehicles", "Professional photography", "Custom routes"],
-        "vehicles": ["Limousine", "Stretch Limo", "Party Bus"],
-        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397",
-        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos2.jpg?updatedAt=1755857564954"
-      },
-      {
-        "id": "hourly-service",
-        "title": "Hourly As-Directed",
-        "description": "Flexible bookings by the hour for errands, meetings, and city tours.",
-        "icon": "clock",
-        "features": ["Flexible scheduling", "Multiple stops", "City tours", "Shopping assistance"],
-        "vehicles": ["Sedan", "SUV", "Limousine"],
-        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163",
-        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults2.jpg?updatedAt=1755857560265"
-      },
-      {
-        "id": "city-to-city",
-        "title": "City-to-City Rides",
-        "description": "Comfortable intercity travel with door-to-door convenience.",
-        "icon": "map",
-        "features": ["Long-distance comfort", "Rest stops", "Refreshments", "WiFi available"],
-        "vehicles": ["Executive Sedan", "SUV", "Limousine"],
-        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526",
-        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults2.png?updatedAt=1755857569500"
-      },
-      {
-        "id": "vip-security",
-        "title": "VIP & Security",
-        "description": "Discreet transportation with trained chauffeurs and route planning.",
-        "icon": "shield",
-        "features": ["Security trained drivers", "Route planning", "Discreet service", "Background checks"],
-        "vehicles": ["Armored Sedan", "Executive SUV", "Limousine"],
-        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/27%20Passenger%20Corporate%20Shuttle%20Bus2.jpg?updatedAt=1755857558128",
-        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/27%20Passenger%20Corporate%20Shuttle%20Bus2.jpg?updatedAt=1755857558128"
-      }
+    "id": "cruise-transportation",
+    "title": "Cruise Transportation",
+    "description": "Start your vacation off right with Elite Limousine's cruise transportation to Galveston, TX, and other cruise ports. Whether you’re setting sail for a tropical getaway or returning from a relaxing cruise, we ensure that your travel to and from the cruise port is comfortable.",
+    "icon": "map",
+    "features": ["Port pickup & drop-off", "Luggage assistance", "Flexible scheduling", "Group travel options"],
+    "vehicles": ["SUV", "Limousine", "Shuttle Bus"],
+    "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909",
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan2.png?updatedAt=1755857554333"
+  },
+  {
+    "id": "executive-transportation",
+    "title": "Executive Transportation",
+    "description": "When it comes to executive transportation, we offer the best in luxury limo service in Houston. Whether you're attending an important business meeting, conference, or corporate event, we ensure that you travel in comfort and style.",
+    "icon": "briefcase",
+    "features": ["Corporate accounts", "Priority booking", "Professional chauffeurs", "On-board WiFi"],
+    "vehicles": ["Executive Sedan", "SUV", "Limousine"],
+    "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan1.jpg?updatedAt=1755857552553",
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan2.png?updatedAt=1755857554333"
+  },
+  {
+    "id": "prom-homecoming",
+    "title": "Prom & Homecoming Transportation",
+    "description": "We understand how important prom and homecoming are. Our services ensure you arrive at these special events in style and comfort. From stretch limousines to party buses, we offer a range of vehicles to make your evening memorable.",
+    "icon": "crown",
+    "features": ["Decorated vehicles", "Group packages", "Safe & reliable", "Photo opportunities"],
+    "vehicles": ["Stretch Limo", "Party Bus", "SUV"],
+    "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397",
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos2.jpg?updatedAt=1755857564954"
+  },
+  {
+    "id": "sporting-event",
+    "title": "Sporting Event Transportation",
+    "description": "We provide sporting event transportation for fans heading to the biggest games in Houston. Whether you're attending a Houston Texans game, a Rockets match, or any other sporting event, we ensure you arrive in style and comfort.",
+    "icon": "car",
+    "features": ["Group travel", "Tailgate packages", "Flexible pickup", "VIP service"],
+    "vehicles": ["SUV", "Limousine", "Shuttle Bus"],
+    "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163",
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults2.jpg?updatedAt=1755857560265"
+  },
+  {
+    "id": "wedding-bachelor-bachelorette",
+    "title": "Weddings – Bachelor / Bachelorette, Getaway Car",
+    "description": "We provide the perfect car service for weddings in Houston. From the bachelor/bachelorette party to the getaway car after the ceremony, we ensure your transportation is as luxurious and memorable as your big day.",
+    "icon": "star",
+    "features": ["Decorated vehicles", "Champagne service", "Multiple trips", "Professional chauffeurs"],
+    "vehicles": ["Stretch Limo", "SUV", "Party Bus"],
+    "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526",
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults2.png?updatedAt=1755857569500"
+  }
     ]
   },
   "vehicles": {
@@ -92,7 +102,7 @@
         "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909",
         "vehicles": [
           {
-            "name": "Mercedes-Benz S-Class",
+            "name": "Mercedes-Benz S-Clas",
             "description": "Ultimate luxury sedan with premium amenities",
             "capacity": "4 passengers",
             "features": ["Leather seats", "Climate control", "WiFi", "Refreshments"],
@@ -252,32 +262,68 @@
       "step": "04"
     }
   ],
-  "features": [
-    {
-      "title": "Professional Chauffeurs",
-      "description": "Experienced, courteous, and safety-focused drivers with extensive training.",
-      "icon": "chauffeur",
-      "details": ["Background checked", "Professional training", "Safety certified", "Courteous service"]
-    },
-    {
-      "title": "Luxury Fleet",
-      "description": "Executive sedans, SUVs, and limousines maintained to the highest standards.",
-      "icon": "car",
-      "details": ["Regular maintenance", "Premium vehicles", "Clean interiors", "Latest models"]
-    },
-    {
-      "title": "On-Time Guarantee",
-      "description": "Punctual pickups and live tracking for your peace of mind.",
-      "icon": "clock",
-      "details": ["Live tracking", "Flight monitoring", "Real-time updates", "On-time guarantee"]
-    },
-    {
-      "title": "24/7 Service",
-      "description": "Available around the clock for your transportation needs.",
-      "icon": "phone",
-      "details": ["24/7 availability", "Emergency service", "Last-minute bookings", "Always ready"]
-    }
-  ],
+ "features": [
+  {
+    "title": "Luxury Fleet for Every Occasion",
+    "description": "Our wide range of premium vehicles, including stretch limos, Mercedes Sprinters, buses, and luxury vans. Each vehicle is meticulously maintained, ensuring your ride is not only stylish but also safe and comfortable.",
+    "icon": "car",
+    "details": [
+      "Stretch limos, Mercedes Sprinters, buses, luxury vans",
+      "Meticulously maintained vehicles",
+      "Stylish, safe, and comfortable rides"
+    ]
+  },
+  {
+    "title": "Professional and Experienced Chauffeurs",
+    "description": "Our team of professional chauffeurs sets us apart. Each driver is fully licensed, insured, and trained to provide the highest level of service. We prioritize safety, punctuality, and discretion, so you can relax and enjoy your ride.",
+    "icon": "chauffeur",
+    "details": [
+      "Fully licensed and insured drivers",
+      "Extensively trained chauffeurs",
+      "Safety, punctuality, and discretion"
+    ]
+  },
+  {
+    "title": "Customized Services to Fit Your Needs",
+    "description": "No two clients are the same, and we understand that every event is unique. Our services are fully customizable, allowing you to choose the vehicle, route, and schedule that best fits your plans.",
+    "icon": "list",
+    "details": [
+      "Fully customizable services",
+      "Choose vehicle, route, and schedule",
+      "Tailored for every event"
+    ]
+  },
+  {
+    "title": "Commitment to Safety and Reliability",
+    "description": "Safety is our top priority. All our vehicles are regularly inspected and maintained to meet the highest safety standards. We carry comprehensive insurance for peace of mind, ensuring that you and your passengers are fully protected.",
+    "icon": "shield",
+    "details": [
+      "Regular vehicle inspections",
+      "Highest safety standards",
+      "Comprehensive insurance coverage"
+    ]
+  },
+  {
+    "title": "Affordable, Transparent Pricing",
+    "description": "Luxury transportation shouldn’t come with hidden fees or surprises. We offer transparent pricing tailored to your needs, with hourly rentals, full-day packages, and special event rates.",
+    "icon": "check",
+    "details": [
+      "No hidden fees",
+      "Hourly, full-day, and event packages",
+      "Transparent, tailored pricing"
+    ]
+  },
+  {
+    "title": "Customer Satisfaction Guaranteed",
+    "description": "We pride ourselves on delivering exceptional customer service. From your first call to the final drop-off, our team is committed to ensuring your experience is smooth, enjoyable, and stress-free.",
+    "icon": "star",
+    "details": [
+      "Exceptional customer service",
+      "Smooth and enjoyable experience",
+      "Satisfaction guaranteed"
+    ]
+  }
+],
   "pricing": {
     "baseRates": {
       "sedan": "From $120/hour",
@@ -308,31 +354,108 @@
   "testimonials": [
     {
       "name": "Michael Johnson",
-      "role": "CEO, TechCorp Industries",
-      "text": "The service was impeccable. Our corporate clients were impressed with the professional chauffeurs and luxury vehicles. Highly recommended for business travel.",
+      "text": "Ralphs Limo made our airport transfer from Houston Intercontinental a breeze! The driver was professional, the ride was smooth, and the luxury sedan made us feel like VIPs. Highly recommended!",
       "rating": 5,
       "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909"
     },
     {
       "name": "Sarah Williams",
-      "role": "Wedding Planner",
-      "text": "Elite Limousine made our wedding day transportation perfect. The stretch limo was beautiful, and the chauffeur was professional and punctual.",
+      "text": "We booked a party bus in Houston for my birthday, and it was amazing! Spacious, clean, and the music system was perfect. Everyone had a blast. Definitely using Ralphs Limousine again!",
       "rating": 5,
       "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397"
     },
     {
       "name": "David Chen",
-      "role": "International Executive",
-      "text": "I use Elite Limousine for all my airport transfers. The flight tracking feature is amazing, and they're always waiting when I arrive.",
+      "text": "I use Ralphs Limousine for events regularly. Their corporate limo service is reliable, professional, and makes a great impression on clients.",
       "rating": 5,
       "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163"
     },
     {
       "name": "Emily Rodriguez",
-      "role": "Event Coordinator",
-      "text": "Outstanding service for our corporate gala. Multiple vehicles, perfect timing, and the guests were thrilled with the luxury experience.",
+      "text": "Our prom night was unforgettable thanks to Ralph's Limousine. Their limo was elegant, comfortable, and arrived right on time. The driver was courteous and friendly too!",
       "rating": 5,
       "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526"
     }
-  ]
+  ],
+  "fleets":[
+  {
+    "id": "mercedes-sprinter",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan1.jpg?updatedAt=1755857552553",
+    "title": "Mercedes Sprinter – Luxury Transportation for Groups",
+    "description": "Our Mercedes Sprinter is the perfect choice for group transportation in Houston. Whether you’re traveling for a corporate event, heading to the airport, or attending a sporting event, the Mercedes Sprinter offers spacious comfort and luxurious amenities."
+  },
+  {
+    "id": "black-chrysler-limousine",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163",
+    "title": "Black Chrysler Limousine – Elegant & Comfortable",
+    "description": "Our Black Chrysler provides the perfect combination of elegance and comfort for up to 8 passengers. Whether you’re planning a wedding, prom, or corporate event, the Chrysler Limo is designed to offer a luxurious and stylish ride."
+  },
+  {
+    "id": "white-chrysler-limousine",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526",
+    "title": "White Chrysler Limousine – Classic Elegance for Special Occasions",
+    "description": "Our White Chrysler Limo is a stunning choice for those looking for a sleek, stylish, and luxurious vehicle. Ideal for weddings, anniversaries, or prom nights, this offers comfortable seating for up to 8 passengers, making it perfect for couples or small groups."
+  },
+  {
+    "id": "luxury-vans",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/27%20Passenger%20Corporate%20Shuttle%20Bus2.jpg?updatedAt=1755857558128",
+    "title": "Luxury Vans – Comfortable Group Transportation",
+    "description": "Our Luxury Vans are perfect for larger groups needing comfortable group transportation in Houston. Whether you're traveling to a sporting event, or airport, these luxury vans provide ample space, comfortable seating, and convenient features for up to 14 passengers."
+  },
+  {
+    "id": "stretch-limo",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397",
+    "title": "Stretch Limo – Classic Luxury for Special Occasions",
+    "description": "For those looking to make a grand entrance, our Stretch Limousine is the ideal choice. This classic stretch luxury offers seating for up to 8 passengers and is perfect for weddings, or a night on the town in Houston."
+  },
+  {
+    "id": "mercedes-executive-shuttle-van",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan2.png?updatedAt=1755857554333",
+    "title": "Mercedes Executive Shuttle Van",
+    "description": "Our Mercedes Executive Shuttle offers luxury group transportation for up to 14 passengers, making it the ideal choice for corporate travel or group events in Houston. Whether you need to transport a team to a business conference or take a group to the airport."
+  },
+  {
+    "id": "22-passenger-shuttle-bus",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/22%20Passenger%20Shuttle%20Bus.jpg?updatedAt=1755857556881",
+    "title": "22 Passenger Shuttle Bus Services",
+    "description": "Our 22 Passenger Shuttle Bus is perfect for larger groups looking for affordable group transportation in Houston. Whether you’re attending an event, wedding, or sporting event, our bus offers plenty of room for everyone to travel together in comfort."
+  },
+  {
+    "id": "23-passenger-corporate-shuttle-bus",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/22%20Passenger%20Shuttle%20Bus1.jpg?updatedAt=1755857553287",
+    "title": "23 Passenger Corporate Shuttle Bus",
+    "description": "For large corporate groups, the 23 Passenger Corporate Bus provides luxury transportation. Whether you're attending a business conference, taking employees to an event, or needing transportation for a group, this vehicle offers comfort and style for larger groups."
+  },
+  {
+    "id": "18-passenger-party-bus",
+    "image":"https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/27%20Passenger%20Corporate%20Shuttle%20Bus.jpg?updatedAt=1755857557927",
+    "title": "18 Passenger Party Bus",
+    "description": "Our 18 Passenger Party Bus is the perfect choice for those looking to enjoy a night out with friends in Houston, celebrate a special occasion, or head to a sporting event in style. This fully equipped bus comes with premium sound systems, ambient lighting, and luxury seating."
+  }],
+  "faqs": [
+  {
+    "question": "Why should I choose Ralphs Limousine Services over other limo service providers?",
+    "answer": "We offer luxury transportation services that are reliable, affordable, and tailored to your specific needs. With a fleet of premium vehicles, including Mercedes Sprinters, stretch limos, and party buses, we ensure that your Houston limo experience is nothing short of exceptional. Our professional chauffeurs and on-time service make us a top choice for events like weddings, corporate travel, and airport transfers."
+  },
+  {
+    "question": "Are there any hourly minimums for booking a limo?",
+    "answer": "Yes, we have hourly minimums based on the type of service and vehicle. For airport transfers or short trips, the minimum rental time is typically 2 hours. For events like weddings or corporate functions, full-day bookings are often required."
+  },
+  {
+    "question": "Are we insured when traveling with Ralphs Limousine Services?",
+    "answer": "Yes, all of our vehicles are fully insured and meet state and federal safety regulations. Our chauffeurs are trained professionals, and we ensure that your safety is our top priority. Whether you're in a stretch limo, party bus, or Mercedes Sprinter, you can rest assured that you're in safe hands during your ride with us."
+  },
+  {
+    "question": "What if I forgot something in the limo?",
+    "answer": "If you forget an item or any luggage in one of our vehicles, don’t worry! Simply contact us as soon as possible, and we’ll help you retrieve your lost belongings. Our customer service team will coordinate with the driver to check the vehicle and return your item to you."
+  },
+  {
+    "question": "How quickly can I get a vehicle from Ralphs Limousine Services?",
+    "answer": "We pride ourselves on offering quick and efficient limo service. If you're in need of a last-minute booking, we can often accommodate same-day requests, depending on availability. For more complex events or large groups, we recommend booking 24-48 hours in advance."
+  },
+  {
+    "question": "What sets Ralphs Limousine Services apart from the competition?",
+    "answer": "What sets Ralphs Limousine Services apart is our commitment to quality, reliable service, and attention to detail. Our luxury vehicles, including Mercedes Sprinters, and stretch limos, are maintained to the highest standards. We provide competitive pricing, transparent booking, and personalized services for every event."
+  }
+]
 }

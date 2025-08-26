@@ -9,6 +9,12 @@ import {
 } from "react-icons/fa";
 import data from "@/public/data.json";
 
+export const metadata = {
+  title: "Contact Us – Book Your Limo Service in Houston, TX | Affordable & Reliable",
+  description:
+    "Get in touch with Ralphs Limousine Services for affordable limo service in Houston. Call or book online for quick, reliable limo rentals for all events.",
+};
+
 export default function ContactPage() {
   return (
     <div className="font-sans">
@@ -29,7 +35,7 @@ export default function ContactPage() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
-              Get in Touch
+               Get in Touch with Ralphs Limousine Services for Limo Service
             </h1>
             <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
               Ready to book your luxury transportation? Contact us today for a personalized quote 
@@ -38,7 +44,48 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
+{/* Contact Intro Section - Place just below the banner */}
+<section className="bg-white py-12">
+  <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-10">
+    
+    {/* Right: Content */}
+    <div className="w-full md:w-1/2">
+      <h2 className="text-3xl font-bold text-primary mb-4 flex items-center gap-3">
+        {/* <FaPhone className="w-8 h-8 text-secondary" /> */}
+        Contact Us – Book Your Limo Service in Houston, TX
+      </h2>
+      <p className="text-lg text-gray-700 leading-relaxed mb-4">
+        We are always here to assist you with all your limo service needs in Houston, TX. Whether you’re looking to book a ride for a wedding, sporting event, or airport transportation, our team is ready to ensure your experience is seamless and stress-free.
+      </p>
+      <div className="flex gap-4 mt-6">
+        <a
+          href="tel:+15551234567"
+          className="inline-flex items-center gap-2 rounded-xl bg-primary text-white px-6 py-3 font-semibold hover:bg-primary/90 transition-all duration-200 shadow-lg"
+        >
+          <FaPhone className="w-5 h-5" />
+          Call Us Now
+        </a>
+        <a
+          href="mailto:info@elitelimo.com"
+          className="inline-flex items-center gap-2 rounded-xl border-2 border-primary px-6 py-3 font-semibold text-primary hover:bg-primary/10 transition-all duration-200"
+        >
+          <FaEnvelope className="w-5 h-5" />
+          Email Us
+        </a>
+      </div>
+    </div>
+    {/* Left: Image */}
+    <div className="flex-shrink-0 w-full md:w-1/2">
+      <div className="rounded-2xl overflow-hidden shadow-xl">
+        <img
+          src="https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults2.jpg?updatedAt=1755857560265"
+          alt="Houston Limo Service"
+          className="w-full h-64 object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</section>
       {/* Contact Form & Info */}
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -230,7 +277,7 @@ export default function ContactPage() {
       </section>
 
       {/* Office Locations */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -274,7 +321,7 @@ export default function ContactPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section */}
       <section className="py-20 bg-white">
