@@ -11,7 +11,7 @@ export default function TermsPage() {
     <div className="font-sans bg-white min-h-screen py-16">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold text-primary mb-6">
-          Terms & Conditions – Booking Limo Service with [Your Company Name]
+          Terms & Conditions – Booking Limo Service with Ralphs Limousine
         </h1>
         <p className="text-lg text-gray-700 mb-8">
           By using our limo service in Houston, TX, you agree to the following Terms & Conditions. Please read carefully before booking any services with us.
@@ -43,7 +43,7 @@ export default function TermsPage() {
           We reserve the right to amend these Terms & Conditions at any time. Any changes will be communicated via our website.
         </p>
         <p className="text-sm text-gray-500 mt-12">
-          &copy; {new Date().getFullYear()} [Your Company Name]. All rights reserved.
+          &copy; {new Date().getFullYear()} Ralphs Limousine. All rights reserved.
         </p>
       </div>
     </div>

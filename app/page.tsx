@@ -202,12 +202,11 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose (Company Name) For Your Luxury Rides?
+              Why Choose Ralphs Limousine For Your Luxury Rides?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               When it comes to luxury transportation in Houston, choosing the
-              right limo service can make all the difference. At [Your Company
-              Name], we go beyond simply providing a ride—we deliver an
+              right limo service can make all the difference. At Ralphs Limousine, we go beyond simply providing a ride—we deliver an
               unforgettable experience.
             </p>
           </div>
