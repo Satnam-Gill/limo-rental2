@@ -1,0 +1,294 @@
+import Link from "next/link";
+import { IconType } from "react-icons";
+import { 
+  FaCarSide, 
+  FaCheck, 
+  FaArrowRight, 
+  FaUsers,
+  FaStar,
+  FaPhone,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaShieldAlt,
+  FaClock,
+  FaTools
+} from "react-icons/fa";
+import data from "@/public/data.json";
+
+const iconMap: Record<string, IconType> = {
+  car: FaCarSide,
+  check: FaCheck,
+  users: FaUsers,
+  star: FaStar,
+  shield: FaShieldAlt,
+  clock: FaClock,
+  tools: FaTools,
+};
+
+export default function FleetPage() {
+  return (
+    <div className="font-sans">
+      {/* Hero Section */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-secondary via-secondary/95 to-secondary/90">
+        <div className="absolute inset-0 bg-pattern opacity-40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-transparent"></div>
+        
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <img 
+            src={data.fleet.bannerImage}
+            alt="Luxury limousine fleet"
+            className="w-full h-full object-cover opacity-20"
+          />
+        </div>
+        
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+          <div className="text-center max-w-4xl mx-auto">
+            <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
+              Our Luxury Fleet
+            </h1>
+            <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
+              Experience the finest in automotive luxury and comfort. Our meticulously maintained fleet 
+              features the latest models from world-renowned manufacturers, ensuring your journey is nothing short of extraordinary.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Fleet Categories */}
+      <section className="py-20 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          {data.vehicles.categories.map((category, categoryIndex) => (
+            <div key={category.name} className={`${categoryIndex > 0 ? 'mt-32' : ''}`}>
+              <div className="text-center mb-16">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                  {category.name}
+                </h2>
+                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                  {category.description}
+                </p>
+              </div>
+              
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                {category.vehicles.map((vehicle) => (
+                                  <div key={vehicle.name} className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden">
+                  <div className="aspect-[16/10] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center relative overflow-hidden">
+                    <img 
+                      src={vehicle.image}
+                      alt={vehicle.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/40 opacity-60"></div>
+                    <div className="relative z-10 text-center text-white">
+                      <FaCarSide className="text-6xl mx-auto mb-4 opacity-80" />
+                      <div className="text-lg font-semibold">{vehicle.name}</div>
+                    </div>
+                  </div>
+                    
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold text-gray-900 mb-3">{vehicle.name}</h3>
+                      <p className="text-gray-600 mb-4 leading-relaxed">{vehicle.description}</p>
+                      
+                      <div className="flex items-center gap-2 mb-4">
+                        <FaUsers className="w-4 h-4 text-primary" />
+                        <span className="text-sm text-gray-600">{vehicle.capacity}</span>
+                      </div>
+                      
+                      <div className="mb-4">
+                        <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">Features:</h4>
+                        <div className="grid gap-2">
+                          {vehicle.features.slice(0, 3).map((feature, index) => (
+                            <div key={index} className="flex items-center gap-2 text-sm text-gray-600">
+                              <FaCheck className="w-3 h-3 text-primary flex-shrink-0" />
+                              {feature}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-center justify-between mb-4">
+                        <div className="text-2xl font-bold text-primary">{vehicle.price}</div>
+                        <div className="flex items-center gap-1 text-yellow-500">
+                          {Array.from({ length: 5 }).map((_, i) => (
+                            <FaStar key={i} className="w-4 h-4" />
+                          ))}
+                        </div>
+                      </div>
+                      
+                      <Link 
+                        href="/contact"
+                        className="inline-flex items-center justify-center w-full rounded-xl bg-primary text-white px-6 py-3 font-semibold hover:bg-primary/90 transition-all duration-200 group-hover:shadow-lg"
+                      >
+                        Book This Vehicle
+                      </Link>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Fleet Features */}
+      <section className="py-20 bg-gray-50">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Why Choose Our Fleet?
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              We maintain the highest standards to ensure your safety and comfort
+            </p>
+          </div>
+          
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <div className="text-center group">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                <FaShieldAlt className="w-8 h-8" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Safety First</h3>
+              <p className="text-gray-600 leading-relaxed">
+                All vehicles undergo rigorous safety inspections and maintenance schedules
+              </p>
+            </div>
+            
+            <div className="text-center group">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                <FaClock className="w-8 h-8" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Always On Time</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Punctual service with real-time tracking and professional chauffeurs
+              </p>
+            </div>
+            
+            <div className="text-center group">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                <FaTools className="w-8 h-8" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Premium Maintenance</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Regular servicing and cleaning to maintain pristine condition
+              </p>
+            </div>
+            
+            <div className="text-center group">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
+                <FaStar className="w-8 h-8" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Luxury Experience</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Premium amenities and comfort features for an exceptional journey
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Packages */}
+      <section className="py-20 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Special Packages
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Tailored packages for different occasions and needs
+            </p>
+          </div>
+          
+          <div className="grid gap-8 md:grid-cols-3">
+            {data.pricing.packages.map((pkg) => (
+              <div key={pkg.name} className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 border border-gray-200 hover:border-primary/30 transition-all duration-300">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">{pkg.name}</h3>
+                <div className="text-4xl font-bold text-primary mb-4">{pkg.price}</div>
+                <p className="text-gray-600 mb-6 leading-relaxed">{pkg.description}</p>
+                
+                <ul className="space-y-3 mb-8">
+                  {pkg.includes.map((item, index) => (
+                    <li key={index} className="flex items-center gap-3 text-gray-700">
+                      <FaCheck className="w-4 h-4 text-primary flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                
+                <Link 
+                  href="/contact"
+                  className="inline-flex items-center justify-center w-full rounded-xl bg-primary text-white px-6 py-3 font-semibold hover:bg-primary/90 transition-all duration-200"
+                >
+                  Book Package
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="py-20 bg-gradient-to-br from-secondary to-secondary/90">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                Need a Custom Quote?
+              </h2>
+              <p className="text-xl text-white/80 mb-8 leading-relaxed">
+                Contact us to discuss your specific requirements and get a personalized quote for your luxury transportation needs.
+              </p>
+              
+              <div className="space-y-4">
+                <div className="flex items-center gap-3 text-white/80">
+                  <FaPhone className="w-5 h-5 text-primary" />
+                  <span>{data.company.phone}</span>
+                </div>
+                <div className="flex items-center gap-3 text-white/80">
+                  <FaEnvelope className="w-5 h-5 text-primary" />
+                  <span>{data.company.email}</span>
+                </div>
+                <div className="flex items-center gap-3 text-white/80">
+                  <FaMapMarkerAlt className="w-5 h-5 text-primary" />
+                  <span>{data.company.address}</span>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+              <h3 className="text-2xl font-bold text-white mb-6">Quick Contact Form</h3>
+              <div className="space-y-4">
+                <div>
+                  <input 
+                    type="text" 
+                    placeholder="Your Name" 
+                    className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-primary"
+                  />
+                </div>
+                <div>
+                  <input 
+                    type="email" 
+                    placeholder="Your Email" 
+                    className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-primary"
+                  />
+                </div>
+                <div>
+                  <textarea 
+                    placeholder="Message" 
+                    rows={4}
+                    className="w-full px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:border-primary resize-none"
+                  ></textarea>
+                </div>
+                <Link 
+                  href="/contact"
+                  className="inline-flex items-center justify-center w-full rounded-xl bg-primary text-secondary px-6 py-3 font-semibold hover:bg-primary/90 transition-all duration-200"
+                >
+                  Send Message
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

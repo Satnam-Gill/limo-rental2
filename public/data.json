@@ -1,0 +1,338 @@
+{
+  "company": {
+    "name": "Elite Limousine Services",
+    "tagline": "Luxury Transportation Excellence",
+    "phone": "+1 (555) 123-4567",
+    "email": "info@elitelimo.com",
+    "address": "123 Luxury Lane, Premium City, PC 12345",
+    "hours": "24/7 Service Available"
+  },
+  "hero": {
+    "kicker": "Premium Limousine Services",
+    "title": "Experience Luxury Transportation Like Never Before",
+    "subtitle": "Professional chauffeurs, premium vehicles, and impeccable service for all your transportation needs. From airport transfers to special events, we deliver excellence.",
+    "primary": { "label": "Book Now", "href": "/contact" },
+    "secondary": { "label": "View Fleet", "href": "/services" },
+    "highlights": [
+      { "label": "Luxury Vehicles", "value": "50+" },
+      { "label": "Cities Served", "value": "25+" },
+      { "label": "5★ Reviews", "value": "500+" }
+    ],
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults2.png?updatedAt=1755857569500"
+  },
+  "services": {
+    "main": [
+      {
+        "id": "airport-transfers",
+        "title": "Airport Transfers",
+        "description": "Seamless airport pickups and drop-offs with flight tracking and waiting time included.",
+        "icon": "plane",
+        "features": ["Flight tracking", "Waiting time included", "Meet & greet service", "Luggage assistance"],
+        "vehicles": ["Sedan", "SUV", "Limousine"],
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan2.png?updatedAt=1755857554333"
+      },
+      {
+        "id": "corporate-travel",
+        "title": "Corporate Travel",
+        "description": "Professional, discreet service for executives and corporate events.",
+        "icon": "briefcase",
+        "features": ["Professional chauffeurs", "Corporate accounts", "Billing integration", "Priority booking"],
+        "vehicles": ["Executive Sedan", "SUV", "Limousine"],
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan1.jpg?updatedAt=1755857552553",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan2.png?updatedAt=1755857554333"
+      },
+      {
+        "id": "event-chauffeur",
+        "title": "Event Chauffeur",
+        "description": "Weddings, proms, galas, and red-carpet events with premium vehicles.",
+        "icon": "star",
+        "features": ["Special event packages", "Decorated vehicles", "Professional photography", "Custom routes"],
+        "vehicles": ["Limousine", "Stretch Limo", "Party Bus"],
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos2.jpg?updatedAt=1755857564954"
+      },
+      {
+        "id": "hourly-service",
+        "title": "Hourly As-Directed",
+        "description": "Flexible bookings by the hour for errands, meetings, and city tours.",
+        "icon": "clock",
+        "features": ["Flexible scheduling", "Multiple stops", "City tours", "Shopping assistance"],
+        "vehicles": ["Sedan", "SUV", "Limousine"],
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults2.jpg?updatedAt=1755857560265"
+      },
+      {
+        "id": "city-to-city",
+        "title": "City-to-City Rides",
+        "description": "Comfortable intercity travel with door-to-door convenience.",
+        "icon": "map",
+        "features": ["Long-distance comfort", "Rest stops", "Refreshments", "WiFi available"],
+        "vehicles": ["Executive Sedan", "SUV", "Limousine"],
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults2.png?updatedAt=1755857569500"
+      },
+      {
+        "id": "vip-security",
+        "title": "VIP & Security",
+        "description": "Discreet transportation with trained chauffeurs and route planning.",
+        "icon": "shield",
+        "features": ["Security trained drivers", "Route planning", "Discreet service", "Background checks"],
+        "vehicles": ["Armored Sedan", "Executive SUV", "Limousine"],
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/27%20Passenger%20Corporate%20Shuttle%20Bus2.jpg?updatedAt=1755857558128",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/27%20Passenger%20Corporate%20Shuttle%20Bus2.jpg?updatedAt=1755857558128"
+      }
+    ]
+  },
+  "vehicles": {
+    "categories": [
+      {
+        "name": "Executive Sedans",
+        "description": "Luxury sedans perfect for business travel and airport transfers",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909",
+        "vehicles": [
+          {
+            "name": "Mercedes-Benz S-Class",
+            "description": "Ultimate luxury sedan with premium amenities",
+            "capacity": "4 passengers",
+            "features": ["Leather seats", "Climate control", "WiFi", "Refreshments"],
+            "price": "From $150/hour",
+            "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan1.jpg?updatedAt=1755857552553"
+          },
+          {
+            "name": "BMW 7 Series",
+            "description": "Executive sedan with cutting-edge technology",
+            "capacity": "4 passengers",
+            "features": ["Premium audio", "Massage seats", "Ambient lighting", "Wireless charging"],
+            "price": "From $140/hour",
+            "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan2.png?updatedAt=1755857554333"
+          }
+        ]
+      },
+      {
+        "name": "Luxury Limousines",
+        "description": "Stretch limousines for special events and VIP transportation",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397",
+        "vehicles": [
+          {
+            "name": "White Chrysler Limousine",
+            "description": "Elegant stretch limousine for up to 8 adults",
+            "capacity": "8 passengers",
+            "features": ["Leather interior", "Premium sound system", "LED lighting", "Refreshment bar"],
+            "price": "From $200/hour",
+            "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526"
+          },
+          {
+            "name": "Black Chrysler Limousine",
+            "description": "Sophisticated black stretch limousine for up to 8 adults",
+            "capacity": "8 passengers",
+            "features": ["Premium leather", "Entertainment system", "Climate control", "Privacy partition"],
+            "price": "From $200/hour",
+            "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163"
+          }
+        ]
+      },
+      {
+        "name": "Corporate Shuttles",
+        "description": "Large capacity vehicles for corporate events and group transportation",
+        "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/27%20Passenger%20Corporate%20Shuttle%20Bus2.jpg?updatedAt=1755857558128",
+        "vehicles": [
+          {
+            "name": "27 Passenger Corporate Shuttle",
+            "description": "Professional shuttle bus for corporate events and group travel",
+            "capacity": "27 passengers",
+            "features": ["Professional driver", "Climate control", "Comfortable seating", "Luggage space"],
+            "price": "From $300/hour",
+            "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/27%20Passenger%20Corporate%20Shuttle%20Bus2.jpg?updatedAt=1755857558128"
+          }
+        ]
+      }
+    ]
+  },
+  "fleet": {
+    "heading": "Our Premium Fleet",
+    "description": "Experience luxury and comfort with our diverse selection of premium vehicles",
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults2.png?updatedAt=1755857569500",
+    "vehicles": [
+      {
+        "name": "White Chrysler Limousine",
+        "category": "Stretch Limo",
+        "capacity": "8 passengers",
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526",
+        "price": "From $200/hour"
+      },
+      {
+        "name": "Black Chrysler Limousine",
+        "category": "Stretch Limo",
+        "capacity": "8 passengers",
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163",
+        "price": "From $200/hour"
+      },
+      {
+        "name": "Luxury Sedan",
+        "category": "Executive Sedan",
+        "capacity": "4 passengers",
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909",
+        "price": "From $150/hour"
+      },
+      {
+        "name": "Stretch Limousine",
+        "category": "Stretch Limo",
+        "capacity": "10 passengers",
+        "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397",
+        "price": "From $250/hour"
+      }
+    ]
+  },
+  "about": {
+    "title": "About Elite Limousine Services",
+    "subtitle": "Your Trusted Partner in Luxury Transportation",
+    "description": "With over 15 years of experience, we've been providing premium limousine services to discerning clients who demand excellence. Our commitment to quality, safety, and customer satisfaction has made us the preferred choice for corporate events, special occasions, and VIP transportation.",
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults2.png?updatedAt=1755857569500",
+    "stats": [
+      { "label": "Years of Experience", "value": "15+" },
+      { "label": "Vehicles in Fleet", "value": "50+" },
+      { "label": "Cities Served", "value": "25+" },
+      { "label": "Happy Clients", "value": "10,000+" }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch for Premium Limousine Services",
+    "description": "Ready to experience luxury transportation? Contact us today for quotes, bookings, or any questions about our services.",
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults2.jpg?updatedAt=1755857560265",
+    "emergency": "+1 (555) 911-0000",
+    "info": {
+      "phone": "+1 (555) 123-4567",
+      "email": "info@elitelimo.com",
+      "address": "123 Luxury Lane, Premium City, PC 12345",
+      "hours": "24/7 Service Available"
+    },
+    "locations": [
+      {
+        "city": "New York",
+        "address": "123 Luxury Lane, Manhattan, NY 10001",
+        "phone": "+1 (212) 555-0123"
+      },
+      {
+        "city": "Los Angeles",
+        "address": "456 Premium Blvd, Beverly Hills, CA 90210",
+        "phone": "+1 (310) 555-0456"
+      },
+      {
+        "city": "Chicago",
+        "address": "789 Elite Street, Downtown, IL 60601",
+        "phone": "+1 (312) 555-0789"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "Choose Your Service",
+      "description": "Select from our range of transportation services tailored to your needs.",
+      "icon": "list",
+      "step": "01"
+    },
+    {
+      "title": "Select Your Vehicle",
+      "description": "Pick from our luxury fleet of sedans, SUVs, and limousines.",
+      "icon": "car",
+      "step": "02"
+    },
+    {
+      "title": "Book & Confirm",
+      "description": "Provide details and receive instant confirmation for your reservation.",
+      "icon": "check",
+      "step": "03"
+    },
+    {
+      "title": "Enjoy Your Ride",
+      "description": "Relax and enjoy first-class service with our professional chauffeurs.",
+      "icon": "star",
+      "step": "04"
+    }
+  ],
+  "features": [
+    {
+      "title": "Professional Chauffeurs",
+      "description": "Experienced, courteous, and safety-focused drivers with extensive training.",
+      "icon": "chauffeur",
+      "details": ["Background checked", "Professional training", "Safety certified", "Courteous service"]
+    },
+    {
+      "title": "Luxury Fleet",
+      "description": "Executive sedans, SUVs, and limousines maintained to the highest standards.",
+      "icon": "car",
+      "details": ["Regular maintenance", "Premium vehicles", "Clean interiors", "Latest models"]
+    },
+    {
+      "title": "On-Time Guarantee",
+      "description": "Punctual pickups and live tracking for your peace of mind.",
+      "icon": "clock",
+      "details": ["Live tracking", "Flight monitoring", "Real-time updates", "On-time guarantee"]
+    },
+    {
+      "title": "24/7 Service",
+      "description": "Available around the clock for your transportation needs.",
+      "icon": "phone",
+      "details": ["24/7 availability", "Emergency service", "Last-minute bookings", "Always ready"]
+    }
+  ],
+  "pricing": {
+    "baseRates": {
+      "sedan": "From $120/hour",
+      "suv": "From $150/hour",
+      "limousine": "From $200/hour"
+    },
+    "packages": [
+      {
+        "name": "Airport Transfer",
+        "description": "One-way airport transportation",
+        "price": "From $150",
+        "includes": ["Meet & greet", "Flight tracking", "Luggage assistance", "Waiting time"]
+      },
+      {
+        "name": "City Tour",
+        "description": "3-hour city exploration",
+        "price": "From $400",
+        "includes": ["Professional guide", "Multiple stops", "Refreshments", "Photo opportunities"]
+      },
+      {
+        "name": "Wedding Package",
+        "description": "Full wedding day service",
+        "price": "From $800",
+        "includes": ["Decorated vehicle", "Multiple trips", "Champagne service", "Professional chauffeur"]
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Michael Johnson",
+      "role": "CEO, TechCorp Industries",
+      "text": "The service was impeccable. Our corporate clients were impressed with the professional chauffeurs and luxury vehicles. Highly recommended for business travel.",
+      "rating": 5,
+      "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909"
+    },
+    {
+      "name": "Sarah Williams",
+      "role": "Wedding Planner",
+      "text": "Elite Limousine made our wedding day transportation perfect. The stretch limo was beautiful, and the chauffeur was professional and punctual.",
+      "rating": 5,
+      "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397"
+    },
+    {
+      "name": "David Chen",
+      "role": "International Executive",
+      "text": "I use Elite Limousine for all my airport transfers. The flight tracking feature is amazing, and they're always waiting when I arrive.",
+      "rating": 5,
+      "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163"
+    },
+    {
+      "name": "Emily Rodriguez",
+      "role": "Event Coordinator",
+      "text": "Outstanding service for our corporate gala. Multiple vehicles, perfect timing, and the guests were thrilled with the luxury experience.",
+      "rating": 5,
+      "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526"
+    }
+  ]
+}

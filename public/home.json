@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "kicker": "Premium Car Rental",
+    "title": "The Best Way of Renting a Car",
+    "subtitle": "Luxury sedans, SUVs, and limousines with professional chauffeurs. Punctual, safe, and stylish—24/7.",
+    "primary": { "label": "Book Now", "href": "/contact" },
+    "secondary": { "label": "View Services", "href": "/services" },
+    "highlights": [
+      { "label": "Vehicles", "value": "120+" },
+      { "label": "Cities", "value": "40+" },
+      { "label": "5★ Reviews", "value": "2k+" }
+    ],
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults2.png?updatedAt=1755857569500"
+  },
+  "features": [
+    { "title": "Professional Chauffeurs", "desc": "Experienced, courteous, safety‑focused.", "icon": "chauffeur" },
+    { "title": "Luxury Fleet", "desc": "Executive sedans, SUVs, limousines.", "icon": "car" },
+    { "title": "On‑Time Guarantee", "desc": "Punctual pickups and live tracking.", "icon": "clock" }
+  ],
+  "solution": {
+    "title": "The Best Solution for Your Next Trip",
+    "desc": "From airport transfers to corporate events, our tailored service ensures a seamless experience from start to finish.",
+    "cta": { "label": "Discover More", "href": "/about" }
+  },
+  "fleet": {
+    "heading": "Top Deals of the Week",
+    "all": { "label": "See all vehicles", "href": "/services" },
+    "bannerImage": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397",
+    "vehicles": [
+      { "name": "White Chrysler Limousine", "tags": ["Stretch Limo", "8 Seats"], "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/White%20Chrysler%20Limousine%20Up%20To%208%20Adults1.jpg?updatedAt=1755857567526" },
+      { "name": "Black Chrysler Limousine", "tags": ["Stretch Limo", "8 Seats"], "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163" },
+      { "name": "Luxury Sedan", "tags": ["Executive", "4 Seats"], "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909" },
+      { "name": "Stretch Limousine", "tags": ["Premium", "10 Seats"], "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Stretch%20Limos.png?updatedAt=1755857567397" }
+    ]
+  },
+  "steps": {
+    "heading": "Easy Steps to Make a Rental",
+    "subheading": "Choose your vehicle, book a date, and enjoy the ride with our professional chauffeurs.",
+    "items": [
+      { "title": "Choose a Car", "desc": "Select from executive sedans, SUVs, or limos.", "icon": "car" },
+      { "title": "Book a Date", "desc": "Instant confirmation and flexible schedules.", "icon": "check" },
+      { "title": "Enjoy the Car", "desc": "Sit back and enjoy a first‑class experience.", "icon": "crown" }
+    ]
+  },
+  "services": [
+    { "title": "Luxury Cars", "desc": "New models with immaculate interiors and amenities.", "icon": "crown" },
+    { "title": "Full Service", "desc": "Chauffeur, fuel, and tolls—everything included.", "icon": "tools" },
+    { "title": "Full Tank", "desc": "Fuel policy designed for convenience and fairness.", "icon": "gas" }
+  ],
+  "testimonials": {
+    "heading": "Review From Our Client",
+    "subheading": "Real words from customers who choose comfort and reliability.",
+    "cta": { "label": "See More", "href": "/about" },
+    "items": [
+      { "name": "John Carter", "role": "CEO, FinCorp", "text": "Flawless airport pickup and a smooth ride. Driver was professional and on time.", "rating": 5 },
+      { "name": "Sara Wells", "role": "Event Planner", "text": "Booked multiple limos for a corporate event—service was impeccable!", "rating": 5 }
+    ]
+  },
+  "blog": {
+    "heading": "Our Blog Content",
+    "subheading": "Guides, news, and tips for business travel and luxury transport.",
+    "items": [
+      { "title": "How to Choose the Right Chauffeur Service", "date": "Nov 18, 2024", "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan.jpg?updatedAt=1755857552909", "href": "/" },
+      { "title": "Top 5 Executive Sedans in 2025", "date": "Dec 02, 2024", "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Luxury%20Sedan1.jpg?updatedAt=1755857552553", "href": "/" },
+      { "title": "Airport Transfer Checklist", "date": "Jan 10, 2025", "image": "https://ik.imagekit.io/h7rza8886p/24%20hour%20Limo%20Rental/Black%20Chrysler%20Limousine%20Up%20To%208%20Adults.jpg?updatedAt=1755857559163", "href": "/" }
+    ]
+  },
+  "cta": {
+    "title": "Have Any Questions About Us?",
+    "desc": "We're available 24/7. Reach out for quotes, custom itineraries, or partnership inquiries.",
+    "primary": { "label": "Contact Us", "href": "/contact" },
+    "secondary": { "label": "Call Now", "href": "tel:+15551234567" }
+  }
+}
+
+
