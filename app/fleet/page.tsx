@@ -56,79 +56,50 @@ export default function FleetPage() {
       </section>
 
       {/* Fleet Categories */}
-      <section className="py-20 bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {data.vehicles.categories.map((category, categoryIndex) => (
-            <div key={category.name} className={`${categoryIndex > 0 ? 'mt-32' : ''}`}>
-              <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                  {category.name}
-                </h2>
-                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  {category.description}
-                </p>
-              </div>
-              
-              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                {category.vehicles.map((vehicle) => (
-                                  <div key={vehicle.name} className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden">
-                  <div className="aspect-[16/10] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center relative overflow-hidden">
-                    <img 
-                      src={vehicle.image}
-                      alt={vehicle.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/40 opacity-60"></div>
-                    <div className="relative z-10 text-center text-white">
-                      <FaCarSide className="text-6xl mx-auto mb-4 opacity-80" />
-                      <div className="text-lg font-semibold">{vehicle.name}</div>
-                    </div>
-                  </div>
-                    
-                    <div className="p-6">
-                      <h3 className="text-xl font-bold text-gray-900 mb-3">{vehicle.name}</h3>
-                      <p className="text-gray-600 mb-4 leading-relaxed">{vehicle.description}</p>
-                      
-                      <div className="flex items-center gap-2 mb-4">
-                        <FaUsers className="w-4 h-4 text-primary" />
-                        <span className="text-sm text-gray-600">{vehicle.capacity}</span>
-                      </div>
-                      
-                      <div className="mb-4">
-                        <h4 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">Features:</h4>
-                        <div className="grid gap-2">
-                          {vehicle.features.slice(0, 3).map((feature, index) => (
-                            <div key={index} className="flex items-center gap-2 text-sm text-gray-600">
-                              <FaCheck className="w-3 h-3 text-primary flex-shrink-0" />
-                              {feature}
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                      
-                      <div className="flex items-center justify-between mb-4">
-                        <div className="text-2xl font-bold text-primary">{vehicle.price}</div>
-                        <div className="flex items-center gap-1 text-yellow-500">
-                          {Array.from({ length: 5 }).map((_, i) => (
-                            <FaStar key={i} className="w-4 h-4" />
-                          ))}
-                        </div>
-                      </div>
-                      
-                      <Link 
-                        href="/contact"
-                        className="inline-flex items-center justify-center w-full rounded-xl bg-primary text-white px-6 py-3 font-semibold hover:bg-primary/90 transition-all duration-200 group-hover:shadow-lg"
-                      >
-                        Book This Vehicle
-                      </Link>
-                    </div>
-                  </div>
-                ))}
-              </div>
+         <section className="py-20 bg-gradient-to-br from-primary/5 via-gray-50 to-secondary/10">
+  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-primary mb-4 drop-shadow-lg tracking-tight">
+        Explore Our Luxury Fleet
+      </h2>
+      <p className="text-xl text-gray-700 max-w-2xl mx-auto">
+        Handpicked vehicles for every occasion—arrive in style, comfort, and elegance.
+      </p>
+    </div>
+    <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+      {data.fleets.map((service, idx) => (
+        <div
+          key={service.id}
+          className="relative group p-0 rounded-3xl bg-white shadow-2xl hover:shadow-primary/30 transition-all duration-300 border-t-4 border-primary/20 hover:border-primary/60 overflow-hidden"
+        >
+          {/* Fleet Image */}
+          <div className="relative h-56 w-full overflow-hidden">
+            <img
+              src={service.image || "/default-fleet.jpg"}
+              alt={service.title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-transparent"></div>
+            {/* <div className="absolute top-4 right-4 bg-primary/90 text-white rounded-full px-4 py-2 text-xs font-bold shadow-lg">
+              {service.category || "Luxury"}
+            </div> */}
+          </div>
+          <div className="relative z-10 p-8">
+            <h3 className="text-2xl font-bold text-primary mb-2 group-hover:text-secondary transition-colors duration-300">
+              {service.title}
+            </h3>
+            <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              {service.description}
+            </p>
+            <div className="flex items-center gap-3 mb-4">
+          
             </div>
-          ))}
+          </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Fleet Features */}
       <section className="py-20 bg-gray-50">
