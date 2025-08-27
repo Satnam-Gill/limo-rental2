@@ -7,6 +7,9 @@ import data from "@/public/data.json"
 export const metadata = {
   title: "FAQs – Houston Limo Service | Ralphs Limousine Services",
   description: "Find answers to common questions about booking, insurance, vehicle options, and more with Ralphs Limousine Services limo service in Houston.",
+  alternates: {
+    canonical: `${data.baseUrl}/faq`,
+  },
 };
 
 const faqs = [

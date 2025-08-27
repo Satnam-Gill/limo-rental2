@@ -25,6 +25,15 @@ const iconMap: Record<string, IconType> = {
   tools: FaTools,
 };
 
+export const metadata = {
+  title: "Our Luxury Fleet – Premium Limousines & Transportation in Houston, TX",
+  description:
+    "Explore our luxury fleet of limousines, Mercedes Sprinters, and shuttle buses in Houston. Professional chauffeurs, affordable rates, and exceptional service.",
+  alternates: {
+    canonical: `${data.baseUrl}/fleet`,
+  },
+};
+
 export default function FleetPage() {
   return (
     <div className="font-sans">
@@ -42,7 +51,7 @@ export default function FleetPage() {
           />
         </div>
         
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-20">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
               Our Luxury Fleet
@@ -102,7 +111,7 @@ export default function FleetPage() {
 </section>
 
       {/* Fleet Features */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -158,7 +167,7 @@ export default function FleetPage() {
       </section>
 
       {/* Pricing Packages */}
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

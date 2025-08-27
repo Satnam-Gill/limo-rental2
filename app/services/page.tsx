@@ -44,6 +44,15 @@ const iconMap: Record<string, IconType> = {
   security: FaSecurity,
 };
 
+export const metadata = {
+  title: "Premium Limo Services Houston | Airport, Corporate, Wedding Transportation",
+  description:
+    "Explore our luxury limo services in Houston. Choose from airport transfers, corporate travel, wedding transportation, and special events. Professional chauffeurs and premium vehicles.",
+  alternates: {
+    canonical: `${data.baseUrl}/services`,
+  },
+};
+
 export default function ServicesPage() {
   return (
     <div className="font-sans">
@@ -61,7 +70,7 @@ export default function ServicesPage() {
           />
         </div>
         
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-20">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-6">
               Our Premium Services
@@ -81,7 +90,7 @@ export default function ServicesPage() {
             {data.services.main.map((service) => {
               const Icon = iconMap[service.icon] ?? FaCheck;
               return (
-                <div key={service.id} className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden">
+                <div key={service.id} className="group card-luxury p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden">
                   <div className="aspect-[16/10] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center relative overflow-hidden mb-6">
                     <img 
                       src={service.image}
@@ -159,9 +168,9 @@ export default function ServicesPage() {
                       <div className="hidden md:block absolute top-10 left-full w-full h-0.5 bg-primary/30 transform translate-x-4"></div>
                     )}
                   </div>
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-4 group-hover:scale-110 transition-transform duration-300">
+                  {/* <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Icon className="w-8 h-8" />
-                  </div>
+                  </div> */}
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">{step.title}</h3>
                   <p className="text-gray-600 leading-relaxed">{step.description}</p>
                 </div>
@@ -172,7 +181,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -254,7 +263,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-secondary to-secondary/90">
+      <section className="py-10 bg-gradient-to-br from-secondary to-secondary/90">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">

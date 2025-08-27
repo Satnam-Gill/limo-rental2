@@ -13,6 +13,9 @@ export const metadata = {
   title: "Contact Us – Book Your Limo Service in Houston, TX | Affordable & Reliable",
   description:
     "Get in touch with Ralphs Limousine Services for affordable limo service in Houston. Call or book online for quick, reliable limo rentals for all events.",
+  alternates: {
+    canonical: `${data.baseUrl}/contact`,
+  },
 };
 
 export default function ContactPage() {
@@ -32,7 +35,7 @@ export default function ContactPage() {
           />
         </div>
         
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-20">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
                Get in Touch with Ralphs Limousine Services for Limo Service
@@ -45,7 +48,7 @@ export default function ContactPage() {
         </div>
       </section>
 {/* Contact Intro Section - Place just below the banner */}
-<section className="bg-white py-12">
+<section className="bg-surface py-12">
   <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-10">
     
     {/* Right: Content */}
@@ -87,7 +90,7 @@ export default function ContactPage() {
   </div>
 </section>
       {/* Contact Form & Info */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-surface">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-3 gap-12">
             {/* Contact Form */}
@@ -324,7 +327,7 @@ export default function ContactPage() {
       </section> */}
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-surface">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -367,10 +370,10 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-secondary to-secondary/90">
+      <section className="py-10 bg-gradient-to-br from-secondary to-secondary/90">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">

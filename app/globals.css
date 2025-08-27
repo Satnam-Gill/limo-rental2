@@ -5,15 +5,27 @@
 :root {
   --primary: #f59e0b;
   --secondary: #1e293b;
+  --background: #f8f6f3;
+  --surface: #ffffff;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
 }
 
 @layer base {
   html {
     scroll-behavior: smooth;
+    background-color: var(--background) !important;
   }
   
   body {
     font-family: var(--font-geist-sans), system-ui, sans-serif;
+    background-color: var(--background) !important;
+    color: var(--text-primary);
+  }
+  
+  /* Ensure all containers inherit the background */
+  html, body, #__next, main {
+    background-color: var(--background) !important;
   }
   
   /* Custom scrollbar */
@@ -42,6 +54,29 @@
     background-size: 20px 20px;
   }
   
+  /* Enhanced background utilities */
+  .bg-luxury {
+    background: linear-gradient(135deg, var(--background) 0%, #f8fafc 50%, var(--background) 100%);
+  }
+  
+  .bg-surface {
+    background-color: var(--surface);
+  }
+  
+  .bg-surface-elevated {
+    background-color: var(--surface);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+  
+  .bg-gradient-luxury {
+    background: linear-gradient(135deg, 
+      var(--background) 0%, 
+      rgba(245, 158, 11, 0.02) 25%, 
+      var(--background) 50%, 
+      rgba(30, 41, 59, 0.02) 75%, 
+      var(--background) 100%);
+  }
+  
   /* Button styles */
   .btn-primary {
     @apply inline-flex items-center justify-center rounded-xl bg-primary text-secondary px-6 py-3 font-semibold hover:bg-primary/90 transition-all duration-200 shadow-lg hover:shadow-xl;
@@ -60,8 +95,20 @@
     @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100;
   }
   
+  .card-luxury {
+    background: var(--surface);
+    border: 1px solid rgba(245, 158, 11, 0.1);
+    @apply rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300;
+  }
+  
   .card-hover {
     @apply hover:-translate-y-2 hover:shadow-2xl;
+  }
+  
+  .card-premium {
+    background: linear-gradient(135deg, var(--surface) 0%, rgba(245, 158, 11, 0.01) 100%);
+    border: 1px solid rgba(245, 158, 11, 0.08);
+    @apply rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
   }
   
   /* Gradient backgrounds */
