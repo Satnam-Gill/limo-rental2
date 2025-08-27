@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function FaqItem({ faq }: { faq: any }) {
   const [open, setOpen] = useState(false);
   return (
-    <div className="rounded-2xl bg-white shadow-lg border border-primary/10 transition-all duration-300">
+    <div className="rounded-2xl card-luxury shadow-lg border border-primary/10 transition-all duration-300">
       <button
         className="w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none"
         onClick={() => setOpen((o) => !o)}

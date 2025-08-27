@@ -40,6 +40,9 @@ export const metadata = {
   title: "Ralphs Limousine – Houston Luxury Limousine Service",
   description:
     "Experience VIP rides with Ralphs Limousine Service Houston. Book luxury limos, party buses, shuttle services today!",
+  alternates: {
+    canonical: data.baseUrl,
+  },
 };
 
 export default function Home() {
@@ -73,13 +76,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-pattern opacity-40"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-transparent to-transparent"></div>
 
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="max-w-2xl">
               <span className="inline-flex items-center gap-2 rounded-full bg-primary/20 text-primary px-4 py-2 text-sm font-semibold uppercase tracking-widest border border-primary/30">
                 {data.hero.kicker}
               </span>
-              <h1 className="mt-6 text-4xl md:text-6xl font-bold text-white leading-tight">
+              <h1 className="mt-6 text-4xl md:text-5xl font-bold text-white leading-tight">
                 {data.hero.title}
               </h1>
               <p className="mt-6 text-xl text-white/80 max-w-prose leading-relaxed">
@@ -134,7 +137,7 @@ export default function Home() {
         </div>
       </section>
       {/* Services Preview */}
-      <section className="relative py-24 bg-gradient-to-br from-primary/5 via-gray-50 to-secondary/10 overflow-hidden">
+      <section className="relative py-24 bg-luxury overflow-hidden">
         {/* Decorative background image */}
         <img
           src="/about-bg.jpg"
@@ -198,7 +201,7 @@ export default function Home() {
         </div>
       </section>
       {/* Features Section */}
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-surface">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -256,7 +259,7 @@ export default function Home() {
       </section>
 
       {/* Services Preview */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-luxury">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -273,7 +276,7 @@ export default function Home() {
               return (
                 <div
                   key={service.id}
-                  className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+                  className="group card-luxury p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
                 >
                   <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-6 group-hover:scale-110 transition-transform duration-300">
                     <Icon className="w-8 h-8" />
@@ -324,7 +327,7 @@ export default function Home() {
       </section>
 
       {/* Fleet Preview */}
-      <section className="py-20 bg-gradient-to-br from-primary/5 via-gray-50 to-secondary/10">
+      <section className="py-8 bg-gradient-luxury">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-extrabold text-primary mb-4 drop-shadow-lg tracking-tight">
@@ -339,7 +342,7 @@ export default function Home() {
             {data.fleets.slice(0, 6).map((service, idx) => (
               <div
                 key={service.id}
-                className="relative group p-0 rounded-3xl bg-white shadow-2xl hover:shadow-primary/30 transition-all duration-300 border-t-4 border-primary/20 hover:border-primary/60 overflow-hidden"
+                className="relative group p-0 rounded-3xl card-luxury shadow-2xl hover:shadow-primary/30 transition-all duration-300 border-t-4 border-primary/20 hover:border-primary/60 overflow-hidden"
               >
                 {/* Fleet Image */}
                 <div className="relative h-56 w-full overflow-hidden">
@@ -377,7 +380,7 @@ export default function Home() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-luxury">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -401,9 +404,9 @@ export default function Home() {
                       <div className="hidden md:block absolute top-10 left-full w-full h-0.5 bg-primary/30 transform translate-x-4"></div>
                     )}
                   </div>
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-4 group-hover:scale-110 transition-transform duration-300">
+                  {/* <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-4 group-hover:scale-110 transition-transform duration-300">
                     <Icon className="w-8 h-8" />
-                  </div>
+                  </div> */}
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">
                     {step.title}
                   </h3>
@@ -418,7 +421,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -462,7 +465,7 @@ export default function Home() {
       </section>
 
       {/* Faq */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-10 bg-gray-50">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
@@ -480,7 +483,7 @@ export default function Home() {
         </div>
       </section>
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-secondary to-secondary/90">
+      <section className="py-10 bg-gradient-to-br from-secondary to-secondary/90">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
